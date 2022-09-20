@@ -1,0 +1,126 @@
+.box {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 700px;
+  box-shadow: 0px 0px 80px 0px;
+  border-radius: 18px;
+
+}
+
+.boxone {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+ display: flex;
+ align-items: center;
+ padding-top: 80px;
+ padding-left: 20px;
+ background-color: #fff;
+ border-radius: 50px;
+}
+
+.wrapperbtn {
+  cursor: pointer;
+  background-color: lightgreen;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.wrapperbtn:hover {
+  color: white;
+  background-color: dodgerblue;
+  transition: 1.2s;
+}
+
+
+.bi {
+  cursor: pointer;
+  background-color: white;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 34px;
+}
+
+.inp1 {
+  font-size: 24px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 80px 0px;
+  padding-left: 20px;
+}
+
+.list {
+  transform: scale(1);
+}
+
+.list {
+  font-size: 50px;
+  overflow-y: auto;
+  height: 550px;
+}
+
+.listbox{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: #64646f33 0px 0px 29px 0px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce{
+  0%{
+    transform: scale(0);
+  }
+  20%{
+      transform: scale(1);
+  }
+  40%{
+      transform: scale(0.8);
+  }
+  60%{
+      transform: scale(1);
+  }
+  80%{
+      transform: scale(0.9);
+  }
+  100%{
+      transform: scale(1);
+  }
+}
+
+.btndelete {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: none;
+}
+
+.btndelete:hover {
+  background-color: dodgerblue;
+  transition: 1.2s;
+}
